@@ -8,7 +8,7 @@ $data = [
         "UserName" => "ROBLOX",
         "RobuxBalance" => 0,
         "TicketsBalance" => 0,
-        "ThumbnailUrl" => null,
+        "ThumbnailUrl" => "https://web.archive.org/web/20070808165254im_/http://t3.roblox.com:80/Avatar-100x100-83e75d04a99ca6e52c16a17cce5af580.Png",
         "IsAnyBuildersClubMember" => true
     ]
 ];

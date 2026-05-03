@@ -50,10 +50,6 @@ if (!$stmt->execute()) {
 $newUserId = $DBReq->insert_id;
 $stmt->close();
 
-$expire = 2147483647; // expire when its the year 2038
-setcookie('username', $username, $expire, '/', '', false, true);
-setcookie('password', $password, $expire, '/', '', false, true);
-
 $data = [
     "Status" => "OK",
     "UserInfo" => [
@@ -61,11 +57,9 @@ $data = [
         "UserName" => $username,
         "RobuxBalance" => $robux,
         "TicketsBalance" => $tickets,
-        "ThumbnailUrl" => null,
+        "ThumbnailUrl" => "https://web.archive.org/web/20070808165254im_/http://t3.roblox.com:80/Avatar-100x100-83e75d04a99ca6e52c16a17cce5af580.Png",
         "IsAnyBuildersClubMember" => false
     ]
 ];
 
 echo json_encode($data);
-
-exit;

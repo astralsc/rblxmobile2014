@@ -1,0 +1,40 @@
+<?php
+// --rbxsig%pxVDs3b1pKC4/1+IO1qcrsPusvVN8vNSXShqvzwKkxeY3Kg+8teAeQ/c8Uayb5Y3F+JSmr/Jhcst7S/BKjhlYGXpQh4Uyj8afI9Kk9X7s3qFmrKP0p4Fnsykk4/MqjoMlWZb3Qzc7IG7D7fih2OMth2UVls31wRfKETkSa8JnNs=%
+
+$data = [
+    'ClientPort' => 0,
+    'MachineAddress' => 'localhost',
+    'ServerPort' => 53640,
+    'PingUrl' => '',
+    'PingInterval' => 120,
+    'UserName' => 'Player',
+    'SeleniumTestMode' => false,
+    'UserId' => 0,
+    'SuperSafeChat' => true,
+    'PlaceId' => 0,
+    'MeasurementUrl' => '',
+    'WaitingForCharacterGuid' => 'd40fd046-7a4f-41b5-aa33-c19829af09ed',
+    'BaseUrl' => 'http://localhost/',
+    'ChatStyle' => 'Classic',
+    'VendorId' => 0,
+    'ScreenShotInfo' => '',
+    'VideoInfo' => '<?xml version="1.0"?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:yt="http://gdata.youtube.com/schemas/2007"><media:group><media:title type="plain"><![CDATA[ROBLOX Place]]></media:title><media:description type="plain"><![CDATA[ For more games visit http://www.roblox.com]]></media:description><media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Games</media:category><media:keywords>ROBLOX, video, free game, online virtual world</media:keywords></media:group></entry>',
+    'CreatorId' => 0,
+    'CreatorTypeEnum' => 'User',
+    'MembershipType' => 'None',
+    'AccountAge' => 0,
+    'CookieStoreFirstTimePlayKey' => 'rbx_evt_ftp',
+    'CookieStoreFiveMinutePlayKey' => 'rbx_evt_fmp',
+    'CookieStoreEnabled' => true,
+    'IsRobloxPlace' => false,
+    'GenerateTeleportJoin' => false,
+    'IsUnknownOrUnder13' => true,
+    'SessionId' => '',
+    'DataCenterId' => 0,
+    'FollowUserId' => 0,
+    'UniverseId' => 0,
+    'BrowserTrackerId' => 0,
+    'UsePortraitMode' => false,
+];
+
+echo json_encode($data);
