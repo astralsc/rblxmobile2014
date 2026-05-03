@@ -1,6 +1,10 @@
 RewriteEngine On
 
-# remove php extension
+# Remove php extension
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+)$ $1.php [L]
+
+# Log missing files
+ErrorDocument 404 /404/index.php
